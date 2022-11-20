@@ -1,0 +1,9 @@
+dependencies:
+- name: common
+  repository: https://jochenrichter.github.io/library-charts/
+  version: 4.5.2
+- name: mongodb
+  repository: https://charts.bitnami.com/bitnami
+  version: 13.4.4
+digest: sha256:3f6b47e6ae63f0e8a7f43636998cfde15a9ff596ff1268e534d4ad2702243944
+generated: "2022-11-20T20:43:05.294152141+01:00"

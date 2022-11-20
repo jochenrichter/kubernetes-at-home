@@ -1,0 +1,28 @@
+---
+apiVersion: v2
+appVersion: v7.1.68
+description: Ubiquiti Network's Unifi Controller
+name: unifi
+version: 7.2.95
+keywords:
+  - ubiquiti
+  - unifi
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/unifi
+icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
+sources:
+  - https://github.com/jacobalberty/unifi-docker
+maintainers:
+  - name: jochen-richter
+
+dependencies:
+  - name: common
+    repository: https://jochenrichter.github.io/library-charts/
+    version: 4.5.2
+  - name: mongodb
+    version: 13.4.4
+    repository: https://charts.bitnami.com/bitnami
+    condition: mongodb.enabled
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Upgraded `common` chart dependency to version 4.5.2
