@@ -19,7 +19,7 @@ dependencies:
     repository: https://jochenrichter.github.io/library-charts/
     version: 4.5.2
   - name: mongodb
-    version: 13.4.4
+    version: 12.1.31
     repository: https://charts.bitnami.com/bitnami
     condition: mongodb.enabled
 annotations:
