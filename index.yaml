@@ -7,7 +7,37 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-20T20:46:45.423881208+01:00"
+    created: "2022-11-21T21:59:29.429844823+01:00"
+    dependencies:
+    - name: common
+      repository: https://jochenrichter.github.io/library-charts/
+      version: 4.5.2
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    description: Ubiquiti Network's Unifi Controller
+    digest: d5b94f37b57fb4482f1a1127a311e99d4b4a7d0f334b7e5b99baa71c4900909e
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/unifi
+    icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
+    keywords:
+    - ubiquiti
+    - unifi
+    maintainers:
+    - name: jochen-richter
+    name: unifi
+    sources:
+    - https://github.com/jacobalberty/unifi-docker
+    urls:
+    - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.96.tgz
+    version: 7.2.96
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v7.1.68
+    created: "2022-11-21T21:59:29.412005182+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -31,4 +61,4 @@ entries:
     urls:
     - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.95.tgz
     version: 7.2.95
-generated: "2022-11-20T20:46:45.402536481+01:00"
+generated: "2022-11-21T21:59:29.386922742+01:00"

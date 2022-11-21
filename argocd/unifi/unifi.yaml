@@ -14,8 +14,6 @@ spec:
       parameters:
       - name: ingress.main.enabled
         value: "true"
-      - name: foo.bar
-        value: baz
       - name: ingress.main.ingressClassName
         value: public
       - name: ingress.portal.hosts[0].host
@@ -35,7 +33,7 @@ spec:
       - name: persistence.data.enabled
         value: "true"
     repoURL: https://jochenrichter.github.io/kubernetes-at-home/
-    targetRevision: 7.2.95
+    targetRevision: 7.2.96
   syncPolicy:
     automated:
       prune: true

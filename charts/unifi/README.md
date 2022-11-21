@@ -1,10 +1,17 @@
 # unifi
 
+
 ![Version: 5.1.2](https://img.shields.io/badge/Version-5.1.2-informational?style=flat-square) ![AppVersion: v7.1.68](https://img.shields.io/badge/AppVersion-v7.1.68-informational?style=flat-square)
 
 Ubiquiti Network's Unifi Controller
 
 **This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/k8s-at-home/charts/issues/new/choose)**
+
+
+## new chart version
+
+helm package charts/unifi/
+helm repo index --url https://jochenrichter.github.io/kubernetes-at-home/ .
 
 ## Source Code
 
