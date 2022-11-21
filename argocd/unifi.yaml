@@ -1,0 +1,42 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: unifi
+  namespace: default
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    chart: unifi
+    helm:
+      parameters:
+      - name: ingress.main.enabled
+        value: "true"
+      - name: foo.bar
+        value: baz
+      - name: ingress.main.ingressClassName
+        value: public
+      - name: ingress.portal.hosts[0].host
+        value: foo
+      - name: ingress.main.hosts[0].host
+        value: unifi.jochen-richter.org
+      - name: ingress.main.hosts[0].paths[0].path
+        value: /
+      - name: mongodb.enabled
+        value: "true"
+      - name: mongodb.persistence.enabled
+        value: "true"
+      - name: persistence.data.accessMode
+        value: ReadWriteOnce
+      - name: persistence.data.size
+        value: 10Gi
+      - name: persistence.data.enabled
+        value: "true"
+    repoURL: https://jochenrichter.github.io/kubernetes-at-home/
+    targetRevision: 7.2.95
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
