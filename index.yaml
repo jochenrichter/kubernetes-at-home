@@ -6,8 +6,38 @@ entries:
         - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
+    appVersion: v7.2.95
+    created: "2022-11-22T23:00:48.781418929+01:00"
+    dependencies:
+    - name: common
+      repository: https://jochenrichter.github.io/library-charts/
+      version: 4.5.2
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    description: Ubiquiti Network's Unifi Controller
+    digest: b68de96ac9b162d599f6c671a91de2120b33d6f17355711f6d6afaa1cfffe3be
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/unifi
+    icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
+    keywords:
+    - ubiquiti
+    - unifi
+    maintainers:
+    - name: jochen-richter
+    name: unifi
+    sources:
+    - https://github.com/jacobalberty/unifi-docker
+    urls:
+    - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.98.tgz
+    version: 7.2.98
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-21T22:31:10.78224268+01:00"
+    created: "2022-11-22T23:00:48.761536116+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -37,7 +67,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-21T22:31:10.763013117+01:00"
+    created: "2022-11-22T23:00:48.74283483+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -67,7 +97,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-21T22:31:10.744537761+01:00"
+    created: "2022-11-22T23:00:48.721087565+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -91,4 +121,4 @@ entries:
     urls:
     - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.95.tgz
     version: 7.2.95
-generated: "2022-11-21T22:31:10.724614047+01:00"
+generated: "2022-11-22T23:00:48.697604448+01:00"

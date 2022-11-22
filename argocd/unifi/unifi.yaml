@@ -13,7 +13,7 @@ spec:
     helm:
       parameters:
       - name: ingress.main.enabled
-        value: "true"
+        value: "false"
       - name: ingress.main.ingressClassName
         value: public
       - name: ingress.portal.hosts[0].host
@@ -33,7 +33,7 @@ spec:
       - name: persistence.data.enabled
         value: "true"
     repoURL: https://jochenrichter.github.io/kubernetes-at-home/
-    targetRevision: 7.2.97
+    targetRevision: 7.2.98
   syncPolicy:
     automated:
       prune: true
