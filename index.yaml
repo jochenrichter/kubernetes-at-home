@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  iobroker:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-25T22:43:03.365589296+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 66f173ce76a8114e8eedc43d680a5472afe42ab5ffade4cb2a9828dc1598ddcf
+    name: iobroker
+    type: application
+    urls:
+    - https://jochenrichter.github.io/kubernetes-at-home/iobroker-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-25T22:43:03.357745225+01:00"
+    description: A Helm chart for Kubernetes
+    digest: e80632520305c9dfa54d30d7dd8746aaec9c2c99998707ffbf243a9bf059ffce
+    name: iobroker
+    type: application
+    urls:
+    - https://jochenrichter.github.io/kubernetes-at-home/iobroker-0.1.0.tgz
+    version: 0.1.0
   unifi:
   - annotations:
       artifacthub.io/changes: |-
@@ -7,7 +28,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.2.95
-    created: "2022-11-22T23:00:48.781418929+01:00"
+    created: "2022-11-25T22:43:03.466069687+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -37,7 +58,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-22T23:00:48.761536116+01:00"
+    created: "2022-11-25T22:43:03.444986938+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -67,7 +88,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-22T23:00:48.74283483+01:00"
+    created: "2022-11-25T22:43:03.42289328+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -97,7 +118,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-22T23:00:48.721087565+01:00"
+    created: "2022-11-25T22:43:03.391021665+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -121,4 +142,4 @@ entries:
     urls:
     - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.95.tgz
     version: 7.2.95
-generated: "2022-11-22T23:00:48.697604448+01:00"
+generated: "2022-11-25T22:43:03.349661988+01:00"
