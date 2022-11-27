@@ -3,7 +3,17 @@ entries:
   iobroker:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-27T15:46:45.922566322+01:00"
+    created: "2022-11-27T16:23:12.205980587+01:00"
+    description: A Helm chart for Kubernetes
+    digest: a1025309c4bfbb22825fdd14c369c5af6863a3f6196dd8ec448c2c9a30d2593a
+    name: iobroker
+    type: application
+    urls:
+    - https://jochenrichter.github.io/kubernetes-at-home/iobroker-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-27T16:23:12.197685408+01:00"
     description: A Helm chart for Kubernetes
     digest: ef632ce903b81711ed4f6444a69eba0ac58cd1ea831212da8166932b7ba47558
     name: iobroker
@@ -13,7 +23,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-27T15:46:45.91466826+01:00"
+    created: "2022-11-27T16:23:12.187281457+01:00"
     description: A Helm chart for Kubernetes
     digest: 66f173ce76a8114e8eedc43d680a5472afe42ab5ffade4cb2a9828dc1598ddcf
     name: iobroker
@@ -38,7 +48,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.2.95
-    created: "2022-11-27T15:46:46.038408333+01:00"
+    created: "2022-11-27T16:23:12.28253504+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -68,7 +78,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-27T15:46:46.001797475+01:00"
+    created: "2022-11-27T16:23:12.263548419+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -98,7 +108,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-27T15:46:45.97707966+01:00"
+    created: "2022-11-27T16:23:12.245046701+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -128,7 +138,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2022-11-27T15:46:45.948520512+01:00"
+    created: "2022-11-27T16:23:12.226263852+01:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -152,4 +162,4 @@ entries:
     urls:
     - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.95.tgz
     version: 7.2.95
-generated: "2022-11-27T15:46:45.887224352+01:00"
+generated: "2022-11-27T16:23:12.17801785+01:00"
