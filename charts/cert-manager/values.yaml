@@ -1,1 +1,3 @@
 email: jochenrichter84@gmail.com
+cert-manager:
+  installCRDs: true
