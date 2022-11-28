@@ -1,3 +1,5 @@
 email: jochenrichter84@gmail.com
+dnsNames:
+  - "*.jochen-richter.org"
 cert-manager:
   installCRDs: true

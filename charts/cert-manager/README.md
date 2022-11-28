@@ -1,4 +1,4 @@
-#cert-manager
+# cert-manager
 
 ## new chart version
 

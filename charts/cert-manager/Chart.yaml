@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: v1.0.0
 description: cert manager 
 name: cert-manager
-version: 1.0.1
+version: 1.0.2
 
 dependencies:
   - name: cert-manager
