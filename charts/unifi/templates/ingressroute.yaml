@@ -1,0 +1,16 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: unifi-ingress
+  namespace: default
+spec:
+  entryPoints:
+    - websecure
+  routes:
+  - match: Host(`unifi.jochen-richter.com`) 
+    kind: Rule
+    services:
+    - name: unifi
+      port: 8443
+  tls:
+    secretName: jochen-crt-secret
