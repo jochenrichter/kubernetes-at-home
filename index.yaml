@@ -3,7 +3,7 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2023-04-23T22:08:45.832841412+02:00"
+    created: "2023-05-14T22:22:00.753775601+02:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io/
@@ -16,7 +16,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2023-04-23T22:08:45.806474266+02:00"
+    created: "2023-05-14T22:22:00.737855776+02:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io/
@@ -29,7 +29,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2023-04-23T22:08:45.768421754+02:00"
+    created: "2023-05-14T22:22:00.723376563+02:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io/
@@ -42,7 +42,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2023-04-23T22:08:46.068698807+02:00"
+    created: "2023-05-14T22:22:00.916191134+02:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io/
@@ -56,7 +56,7 @@ entries:
   iobroker:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-23T22:08:45.881339559+02:00"
+    created: "2023-05-14T22:22:00.780076187+02:00"
     description: A Helm chart for Kubernetes
     digest: a1025309c4bfbb22825fdd14c369c5af6863a3f6196dd8ec448c2c9a30d2593a
     name: iobroker
@@ -66,7 +66,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-23T22:08:45.864855873+02:00"
+    created: "2023-05-14T22:22:00.773100692+02:00"
     description: A Helm chart for Kubernetes
     digest: ef632ce903b81711ed4f6444a69eba0ac58cd1ea831212da8166932b7ba47558
     name: iobroker
@@ -76,7 +76,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-23T22:08:45.84657234+02:00"
+    created: "2023-05-14T22:22:00.762851675+02:00"
     description: A Helm chart for Kubernetes
     digest: 66f173ce76a8114e8eedc43d680a5472afe42ab5ffade4cb2a9828dc1598ddcf
     name: iobroker
@@ -91,7 +91,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.3.83
-    created: "2023-04-23T22:08:46.043874989+02:00"
+    created: "2023-05-14T22:22:00.901657875+02:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -101,7 +101,37 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 12.1.31
     description: Ubiquiti Network's Unifi Controller
-    digest: fb112ebd285dfbd73e23cdf6bf1c21e394fd6d4f432bd82ae82bae4b3367750d
+    digest: 8ad852df5d69a994c00ee58c5c769b9dfea68f411b95b804b7724336ea6f8563
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/unifi
+    icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
+    keywords:
+    - ubiquiti
+    - unifi
+    maintainers:
+    - name: jochen-richter
+    name: unifi
+    sources:
+    - https://github.com/jacobalberty/unifi-docker
+    urls:
+    - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.3.84.tgz
+    version: 7.3.84
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v7.3.83
+    created: "2023-05-14T22:22:00.884319484+02:00"
+    dependencies:
+    - name: common
+      repository: https://jochenrichter.github.io/library-charts/
+      version: 4.5.2
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    description: Ubiquiti Network's Unifi Controller
+    digest: 725f31e1cb2c308db48f35baa6ad7236a6598e4c44415cf094774a7e789a11ad
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/unifi
     icon: https://prd-www-cdn.ubnt.com/static/favicon-152.png
     keywords:
@@ -121,7 +151,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.2.95
-    created: "2023-04-23T22:08:46.025477991+02:00"
+    created: "2023-05-14T22:22:00.86703186+02:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -151,7 +181,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2023-04-23T22:08:45.994047896+02:00"
+    created: "2023-05-14T22:22:00.849650422+02:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -181,7 +211,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2023-04-23T22:08:45.956667067+02:00"
+    created: "2023-05-14T22:22:00.826300465+02:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -211,7 +241,7 @@ entries:
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
     appVersion: v7.1.68
-    created: "2023-04-23T22:08:45.921512559+02:00"
+    created: "2023-05-14T22:22:00.801564957+02:00"
     dependencies:
     - name: common
       repository: https://jochenrichter.github.io/library-charts/
@@ -235,4 +265,4 @@ entries:
     urls:
     - https://jochenrichter.github.io/kubernetes-at-home/unifi-7.2.95.tgz
     version: 7.2.95
-generated: "2023-04-23T22:08:45.73890652+02:00"
+generated: "2023-05-14T22:22:00.709492894+02:00"

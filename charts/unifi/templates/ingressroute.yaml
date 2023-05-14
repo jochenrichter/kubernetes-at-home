@@ -11,6 +11,6 @@ spec:
     kind: Rule
     services:
     - name: unifi
-      port: 8443
+      port: 8080
   tls:
     secretName: jochen-crt-secret
